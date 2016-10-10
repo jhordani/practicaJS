@@ -85,7 +85,27 @@ function over() {
 }
 
 function out() {
-    document.getElementById("accion").innerHTML = "<h3> Codigo del hacker!! </h3>";
+    document.getElementById("accin").innerHTML = "<h3> Codigo del hacker!! </h3>";
 }
 
 
+
+
+
+function pregunta(){
+   var respuesta = confirm("¡pomprendiste llava scripot?");
+    alert("respuesta");
+}
+
+
+/* entrevista */
+
+
+function entrevista(){
+   var nombre = prompt("Ingrese su nombre: ");
+    if(nombre != null){
+        document.getElementById("datos").innerHTML ="<p>Su nombre es: " +nombre+ "</p>"
+    }else{
+        document.getElementById("datos").innerHTML ="<p>No coloco nada </p>"
+    }
+}
