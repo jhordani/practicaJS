@@ -76,3 +76,16 @@ function divicion() {
 
 
 /* ******************************* */
+
+
+/* **********************/
+
+function over() {
+    document.getElementById("accion").innerHTML = "<h3> Codigo Ejecutando!! </h3>";
+}
+
+function out() {
+    document.getElementById("accion").innerHTML = "<h3> Codigo del hacker!! </h3>";
+}
+
+
